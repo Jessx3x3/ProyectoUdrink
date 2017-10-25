@@ -8,7 +8,7 @@ package com.example.pruebalanzadora.vuelvetealcocteludrink;
 
 public class Cocteles extends AppCompatActivity {
     ListView lista;
-    String cocteles[] = new String[] {"a","b","c","d","e","f","g"};
+    String cocteles[] = new String[] {"a","b","c","d","e","f","g","h","i","j","k","l"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
