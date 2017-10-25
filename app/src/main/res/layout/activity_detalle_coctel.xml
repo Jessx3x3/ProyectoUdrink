@@ -25,7 +25,6 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:layout_weight="0.04"
-
             android:src="@drawable/logo"
             android:visibility="visible" />
 
