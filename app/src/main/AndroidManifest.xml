@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetalleCoctelActivity"></activity>
+        <activity android:name=".DetalleCoctelActivity" />
+        <activity android:name=".Cocteles"></activity>
     </application>
 
 </manifest>
