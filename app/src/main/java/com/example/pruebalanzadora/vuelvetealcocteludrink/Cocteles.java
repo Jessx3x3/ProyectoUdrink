@@ -5,8 +5,6 @@ package com.example.pruebalanzadora.vuelvetealcocteludrink;
         import android.widget.ArrayAdapter;
         import android.widget.ListView;
 
-        import java.util.List;
-        import java.util.StringTokenizer;
 
 public class Cocteles extends AppCompatActivity {
     ListView lista;
