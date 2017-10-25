@@ -8,7 +8,25 @@ package com.example.pruebalanzadora.vuelvetealcocteludrink;
 
 public class Cocteles extends AppCompatActivity {
     ListView lista;
-    String cocteles[] = new String[] {"a","b","c","d","e","f","g","h","i","j","k","l"};
+
+    String cocteles[] = new String[] {
+            "Margarita corona",
+            "Gelatina de champaña",
+            "Margarita de fresa con tequila",
+            "Sorbete de piña al cava",
+            "Caipiroska de pepino",
+            "El trago de la bandera de colombia",
+            "Fresa espumante",
+            "Whiskey: Irish Redhead",
+            "Clericot de vino blanco",
+            "Carajillo de Bailey's",
+            "Sorbete de mojito",
+            "Trago de durazno",
+            "Blueberry Spritzer",
+            "Mojito de vodka con maracuyá",
+            "Cóctel de granizado de ginebra",
+            "Cóctel americano",
+            "Sangría de cava"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +35,7 @@ public class Cocteles extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, cocteles);
         lista.setAdapter(adapter);
+
 
     }
 }
