@@ -12,12 +12,12 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link DescripcionCoctel.OnFragmentInteractionListener} interface
+ * {@link Cocteles.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link DescripcionCoctel#newInstance} factory method to
+ * Use the {@link Cocteles#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class DescripcionCoctel extends Fragment {
+public class Cocteles extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +29,7 @@ public class DescripcionCoctel extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public DescripcionCoctel() {
+    public Cocteles() {
         // Required empty public constructor
     }
 
@@ -39,11 +39,11 @@ public class DescripcionCoctel extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment DescripcionCoctel.
+     * @return A new instance of fragment Cocteles.
      */
     // TODO: Rename and change types and number of parameters
-    public static DescripcionCoctel newInstance(String param1, String param2) {
-        DescripcionCoctel fragment = new DescripcionCoctel();
+    public static Cocteles newInstance(String param1, String param2) {
+        Cocteles fragment = new Cocteles();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,7 +64,7 @@ public class DescripcionCoctel extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_descripcion_coctel, container, false);
+        return inflater.inflate(R.layout.fragment_cocteles, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
