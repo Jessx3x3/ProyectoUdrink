@@ -10,9 +10,8 @@ package com.example.pruebalanzadora.vuelvetealcocteludrink;
 
 
 public class Cocteles extends AppCompatActivity {
+
     ListView lista;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +46,7 @@ public class Cocteles extends AppCompatActivity {
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) //posición y id
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
             {
 
                 if(i==0){
